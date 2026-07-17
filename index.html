@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>AI Student Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Simple, human-friendly structure. Purpose kept intact. -->
+    <div class="wrap">
+      <aside class="side">
+        <div class="brand">AI Student Dashboard</div>
+        <nav>
+          <ul>
+            <li class="active"><i class="fa-solid fa-house"></i> Dashboard</li>
+            <li><i class="fa-solid fa-book-open"></i> Courses</li>
+            <li><i class="fa-solid fa-chart-line"></i> Progress</li>
+            <li><i class="fa-solid fa-clipboard-list"></i> Tasks</li>
+            <li><i class="fa-solid fa-robot"></i> AI Assistant</li>
+            <li><i class="fa-solid fa-calendar-days"></i> Schedule</li>
+            <li><i class="fa-solid fa-trophy"></i> Achievements</li>
+            <li><i class="fa-solid fa-user"></i> Profile</li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="main">
+        <header class="top">
+          <div>
+            <strong>AI Student Dashboard</strong>
+            <div class="muted">Student workspace</div>
+          </div>
+          <div class="actions">
+            <button class="theme-toggle" aria-label="toggle theme"><i class="fa-solid fa-moon"></i></button>
+            <button aria-label="notifications"><i class="fa-regular fa-bell"></i></button>
+            <button aria-label="settings"><i class="fa-solid fa-gear"></i></button>
+            <div class="avatar">SA</div>
+          </div>
+        </header>
+
+        <section class="content">
+          <section class="welcome">
+            <div class="welcome-left">
+              <h2>Welcome Back Samarth!</h2>
+              <p>You studied <strong>5 hours</strong> yesterday. Current Streak: <strong>15 Days</strong> 🔥</p>
+            </div>
+            <div class="welcome-right">
+              <img class="profile-photo" src="images/passport.png" alt="Samarth photo">
+            </div>
+          </section>
+
+          <section class="stats">
+            <div><div class="label">Courses Completed</div><div class="num">12</div></div>
+            <div><div class="label">Study Hours</div><div class="num">145</div></div>
+            <div><div class="label">Tasks Completed</div><div class="num">56</div></div>
+            <div><div class="label">Current Streak</div><div class="num">15 Days</div></div>
+          </section>
+
+          <section class="progress">
+            <h3>Learning Progress</h3>
+            <div class="prog"><span>HTML</span><div class="bar"><i style="width:90%"></i><small>90%</small></div></div>
+            <div class="prog"><span>CSS</span><div class="bar"><i style="width:40%"></i><small>40%</small></div></div>
+            <div class="prog"><span>DSA</span><div class="bar"><i style="width:60%"></i><small>60%</small></div></div>
+            <div class="prog"><span>Python</span><div class="bar"><i style="width:80%"></i><small>80%</small></div></div>
+          </section>
+
+          <section class="tasks-sched">
+            <div class="tasks">
+              <h3>Today's Tasks</h3>
+              <ul>
+                <li><label><input type="checkbox"> Complete HTML Dashboard</label></li>
+                <li><label><input type="checkbox"> Solve 2 DSA Questions</label></li>
+                <li><label><input type="checkbox"> Watch CSS Tutorial</label></li>
+                <li><label><input type="checkbox"> Push Code to GitHub</label></li>
+              </ul>
+            </div>
+
+            <div class="schedule">
+              <h3>Upcoming</h3>
+              <ol>
+                <li><strong>10:00 AM</strong> — HTML Practice</li>
+                <li><strong>02:00 PM</strong> — DSA</li>
+                <li><strong>06:00 PM</strong> — Python</li>
+              </ol>
+            </div>
+          </section>
+
+          <section class="ai">
+            <h3>AI Assistant</h3>
+            <div class="chat">Ask AI Anything...</div>
+            <div class="chat-input"><input placeholder="Type a question..."><button>Send</button></div>
+          </section>
+
+          <section class="recommend">
+            <h3>AI Recommendation</h3>
+            <p>Your HTML progress is excellent. Focus on CSS this week. <span class="badge">2 hrs/day</span></p>
+          </section>
+
+          <section class="achievements">
+            <h3>Achievements</h3>
+            <div class="badges">
+              <div>🏅 HTML Beginner</div>
+              <div>🏅 10 Day Streak</div>
+              <div>🏅 DSA Learner</div>
+            </div>
+          </section>
+
+          <section class="quote">
+            <h4>Quote of the Day</h4>
+            <blockquote>Consistency beats intensity.</blockquote>
+          </section>
+        </section>
+
+        <footer class="foot">AI Student Dashboard | Created by Samarth</footer>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
